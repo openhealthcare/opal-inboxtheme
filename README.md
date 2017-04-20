@@ -1,0 +1,1 @@
+This is inboxtheme - an [Opal](https://github.com/openhealthcare/opal) plugin.

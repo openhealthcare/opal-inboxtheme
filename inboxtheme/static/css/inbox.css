@@ -1,0 +1,199 @@
+/* Layout */
+#center-col {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 100vh;
+}
+
+.navbar {
+  min-height: 56px;
+  padding-top: 3px;
+  box-shadow:0 0 4px rgba(0,0,0,.14),0 4px 8px rgba(0,0,0,.28);
+  border-bottom: none;
+}
+
+.container-fluid .navbar-header {
+  margin-left: 8px;
+}
+
+.container-fluid .navbar-header img {
+  margin-right: 16px;
+}
+
+#inbox-searchbox .navbar-form {
+  float: left !important;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 70%;
+  margin-left: 60px;
+}
+
+#inbox-searchbox .navbar-form form{
+  margin: 0 auto;
+}
+
+#inbox-searchbox .form-control {
+  width: 100%;
+}
+
+#inbox-searchbox .form-group.nav-bar-search {
+  width: 100%;
+}
+
+#inbox-searchbox .navbar-form input {
+  padding-left: 60px;
+  font-size: 16px;
+}
+.nav-bar-search {
+    color: white;;
+}
+.nav-bar-search:before {
+  padding-left: 16px
+}
+.navbar-avatar {
+  height: 36px;
+  border-radius: 30px;
+  margin-right: 40px;
+  margin-top: 6px;
+}
+
+.content-offset {
+  margin-top: 70px;
+}
+
+/* colors */
+.panel.panel-primary .panel-heading a,
+a {
+    color: #4285f4;
+}
+.navbar-primary {
+  background:  #4285f4;
+}
+.navbar-nav li:hover {
+  background:  #4285f4;
+}
+.navbar-primary .navbar-header a {
+  font-weight: normal;
+  color: white;
+}
+
+#inbox-searchbox .navbar-form input {
+   background: rgba(255,255,255,.15);
+   border: none;
+}
+
+#inbox-searchbox input::-webkit-input-placeholder {
+    color:white;
+}
+
+#inbox-searchbox input::-moz-placeholder {
+    color: white;
+}
+
+#inbox-searchbox input::-ms-placeholder {
+    color:white;
+}
+
+#inbox-searchbox input::placeholder {
+    color:white;
+}
+.loading {
+    background: none;
+}
+.nav-pills i {
+  font-size: 20px;
+  padding-right: 20px;
+}
+.nav-pills a {
+  color: rgb(97, 97, 97);
+  font-size: 13px;
+  line-height: 10px;
+}
+.nav-pills li.active {
+  background: rgba(0,0,0,.05)
+}
+.nav-pills li.active a {
+    background: none;
+    color: rgb(33, 33, 33);
+}
+.nav-pills li a:hover{
+  border-radius: 0px;
+  background: rgba(0,0,0,.05)
+}
+/* Fonts */
+
+body {
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+.navbar {
+  font-size: 19.5px;
+}
+h1 small {
+  color: rgb(97, 97, 97);
+}
+
+/* Component re-skins */
+
+.btn {
+  border-radius: 0px;
+  border: none;
+  box-shadow:0 0 4px rgba(0,0,0,.14),0 4px 8px rgba(0,0,0,.28);
+}
+
+.btn.btn-primary {
+  background:#4285f4;
+}
+
+.panel {
+  border: none;
+  background: none;
+  box-shadow: none;
+  border-radius: 0px;
+}
+.panel-default .panel-body{
+    background: white;
+    box-shadow:0 0 4px rgba(0,0,0,.14),0 4px 8px rgba(0,0,0,.28);
+}
+.panel-default .panel-heading{
+  padding-left: 0px;
+}
+.panel.panel-primary .panel-heading {
+  background: none;
+  border: none;
+  color: rgb(97, 97, 97);
+}
+.panel-footer {
+  background: none;
+  border: none;
+}
+.panel-footer .btn {
+  float: right;
+}
+.panel.panel-primary.patient-detail{
+    box-shadow:0 0 4px rgba(0,0,0,.14),0 4px 8px rgba(0,0,0,.28);
+    background: white;
+}
+.panel.panel-primary.patient-detail .patient-detail-heading{
+  border-bottom:1px solid #ddd;
+}
+.panel-primary h2 {
+    padding-left: 92px;
+}
+.no-touchevents .panel-heading i.edit, .list-group-item i.edit, .list-group-item i.delete {
+  display: block;
+  color: #777;
+}
+
+.touchevents .panel-heading i.edit,
+.touchevents .panel-heading i.delete,
+.panel-heading:hover i.edit,
+.list-group-item:hover i.edit,
+.list-group-item:hover i.delete{
+  color: black;
+  cursor: pointer;
+}
+
+.ngProgressLiteBar {
+    display: none;
+}

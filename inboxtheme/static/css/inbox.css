@@ -158,6 +158,9 @@ h1 small {
 .panel-default .panel-heading{
   padding-left: 0px;
 }
+.panel-default .panel-heading h3 {
+  padding-left: 14px;
+}
 .panel.panel-primary .panel-heading {
   background: none;
   border: none;
